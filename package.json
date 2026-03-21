@@ -1,0 +1,28 @@
+{
+  "name": "waveshare-epaper-7in3e",
+  "version": "1.0.0",
+  "description": "TypeScript driver for Waveshare 7.3inch e-Paper HAT (E) - 6-color Spectra display",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/examples/demo.js",
+    "demo": "npm run build && node dist/examples/demo.js",
+    "clear": "npm run build && node dist/examples/clear.js",
+    "dev": "ts-node src/examples/demo.ts"
+  },
+  "dependencies": {
+    "onoff": "^6.0.3",
+    "spi-device": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["raspberry-pi", "e-paper", "waveshare", "spi", "epaper"],
+  "license": "MIT"
+}
