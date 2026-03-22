@@ -1,13 +1,7 @@
 {
   "name": "@wojciechjerzy/ramka",
   "private": true,
-  "workspaces": [
-    "producer"
-  ],
   "scripts": {
-    "dev": "npm run dev --workspace producer"
-  },
-  "dependencies": {
-    "@wojciechjerzy/ramkaProducer": "file://producer"
+    "dev": "npm run dev --prefix producer"
   }
 }
