@@ -1,0 +1,32 @@
+{
+  "name": "@wojciechjerzy/ramkaProducer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx --watch src/backend/index.ts",
+    "build:frontend": "vite build",
+    "watch:frontend": "vite build --watch",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/multer": "^2.1.0",
+    "@types/node": "^25.5.0",
+    "@types/qrcode": "^1.5.6",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vite": "^8.0.1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "lit": "^3.3.2",
+    "multer": "^2.1.1",
+    "qrcode": "^1.5.4",
+    "sharp": "^0.34.5"
+  }
+}

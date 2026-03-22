@@ -1,6 +1,6 @@
-node_modules/
-dist/
-*.js.map
-*.d.ts.map
-.env
-.idea
+/.idea/
+/.claude/
+/node_modules/
+/producer/node_modules/
+config.json
+.DS_Store
